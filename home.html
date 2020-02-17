@@ -1,0 +1,257 @@
+
+<html>
+<head>
+<link href="pmms.css" rel="stylesheet">
+</head>
+<body>
+ <nav>
+ <ul>
+  <div id="b"><a href="#"><img src="logo.png" style="width:60px"></a></div>
+  <div id="name">Feed The Needy</div>
+			<li><button class="button" id="login">Login</button></li>
+			<li><button class="button" id="signup">Signup</button></li>
+
+ </ul>
+ </nav>
+
+
+ <div id="loginm" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+<img src="logo.png" style="width:50px;margin-left:150px;">
+<p style="font-size:20px;margin-left:100px">Please Log in</p>
+<form class="form" method="post" action="login.php">
+<input id="text" name="email" type="text" placeholder="Email-Address">
+<input id="text"  name="password" type="password" placeholder="Password"><br>
+<input id="button1" type="submit" value="submit" name="submit" ><br>
+</form>
+
+  </div>
+</div>
+
+
+ <div id="signupm" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close1">&times;</span>
+<img src="logo.png" style="width:50px;margin-left:150px;">
+<p style="font-size:20px;margin-left:100px">Please sign up</p>
+<form name="myform" onsubmit="return validation()" method="post" action ="signup.php" class="form">
+<p>Email Address</p>
+<input id="text1" name="emailid" type="text"><br>
+<p>Password</p>
+<input id="text1" name="password" type="password"><br>
+<p>Confirm Password</p>
+<input id="text1" name="cpassword" type="password"><br>
+<input id="button1" type="submit" value="submit"name="submit" ><br>
+</form>
+
+  </div>
+</div>
+
+
+
+  
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div id="numbertext">1 / 4</div>
+  <img src="home1.jpg" style="width:100%">
+  <div id="caption">Caption One</div>
+</div>
+
+<div class="mySlides fade">
+  <div id="numbertext">2 / 4</div>
+  <img src="home2.jpg" style="width:100%">
+  <div id="caption">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div id="numbertext">3 / 4</div>
+  <img src="home3.png" style="width:100%">
+  <div id="caption">Caption Three</div>
+</div>
+
+<div class="mySlides fade">
+  <div id="numbertext">4 / 4</div>
+  <img src="home4.jpg" style="width:100%">
+  <div id="caption">Caption Four</div>
+</div>
+
+</div>
+<br>
+
+<div id="info" >
+<div  id="first" style="font-family:Comic Sans MS, cursive, sans-serif;">
+<img src="donate.png" id="clogo" style="width:100px ;height:100px">
+<h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Donate</h3><br>
+<p style="font-size:15px"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+</div>
+
+<div  id="second" style="font-family:Comic Sans MS, cursive, sans-serif;">
+<img src="voluenteer.jpg" id="clogo" style="width:100px ;height:100px">
+<h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Volunteer</h3><br>
+<p style="font-size:15px"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+</div>
+
+<div  id="third" style="font-family:Comic Sans MS, cursive, sans-serif; ">
+<img src="maps.jpg" id="clogo" style="width:100px ;height:100px">
+<h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Hunger Spots</h3><br>
+<p style="font-size:15px"></p>
+</div>
+</div>
+
+<div id="f">
+
+
+<div id="finfo">
+<div id="ffirst">
+<a href="#" style="text-decoration:none;color:white;font-family:Comic Sans MS, cursive, sans-serif;">Contact Us</a>
+</div>
+<div id="fsecond">
+<a href="#"style="text-decoration:none;color:white;font-family:Comic Sans MS, cursive, sans-serif;">Terms & Conditions</a>
+</div>
+
+<div id="fthird"  >
+<a href="#"style="text-decoration:none;color:white;font-family:Comic Sans MS, cursive, sans-serif;">FAQs</a>
+</div>
+<div id="ffourth">
+<a href="#"style="text-decoration:none;color:white;font-family:Comic Sans MS, cursive, sans-serif;">How it Works</a>
+</div>
+<div id="ffifth">
+<a href="#"style="text-decoration:none;color:white;font-family:Comic Sans MS, cursive, sans-serif;">Find Us:&nbsp;&nbsp;&nbsp;</a>
+<a href="#"> <img src="facebook.png" style="width:25px;height:25px;"></a>&nbsp;
+<a href="#"> <img src="instagram.png" style="width:30px;height:25px;"></a>&nbsp;
+<a href="#"> <img src="twitter.png" style="width:30px;height:25px;"></a>&nbsp;
+</div>
+<div id="fselect">
+<form>
+  <select name="language" style="width:225px;height:35px;font-size:15px;font-family:Comic Sans MS, cursive, sans-serif;">
+    <option >English</option>
+    <option >Hindi</option>
+    <option >Gujarati</option>
+ 
+  </select>
+</form>
+</div>
+</div>
+<div id="line">
+<hr>
+<p align="center" style="font-size:13px;">&#169; Copyright All Rights Reserved</p>
+</div>
+</div>	
+
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+ 
+  slides[slideIndex-1].style.display = "block";  
+ 
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+var modal = document.getElementById('loginm');
+
+// Get the button that opens the modal
+var btn = document.getElementById("login");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+var modal1 = document.getElementById('signupm');
+
+// Get the button that opens the modal
+var btn1 = document.getElementById("signup");
+
+// Get the <span> element that closes the modal
+var span1 = document.getElementsByClassName("close1")[0];
+
+// When the user clicks the button, open the modal 
+btn1.onclick = function() {
+  modal1.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span1.onclick = function() {
+  modal1.style.display = "none";
+}
+/*
+function validation()
+{
+var uname=document.myform.uname;
+var unameRegex = /^[a-zA-Z\-]+$/;
+if(uname.value!="")
+{
+if(!unameRegex.test(uname.value))
+{
+alert("enter valid username");
+}
+}
+else
+{
+alert("username cant be empty");
+}
+var email=document.myform.email;
+var emailRegex = /^([a-zA-Z0-9_\-\.]+) @([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/;
+if(email.value!="")
+{
+if(!emailRegex.test(email.value))
+{
+alert("enter valid email");
+}
+}
+else
+{
+alert("email cant be empty");
+}
+var pass=document.myform.pass;
+var passRegex = /^[a-zA-Z0-9]{6,12}$/;
+if(pass.value!="")
+{
+if(!passRegex.test(pass.value))
+{
+alert("enter valid password");
+}
+}
+else
+{
+alert("password cant be empty");
+}
+var cpass=document.myform.cpass;
+if(cpass.value!=pass.value)
+{
+alert("password must be same");
+}
+
+}
+*/
+
+
+
+
+
+</script>
+
+</body>
+</html> 
