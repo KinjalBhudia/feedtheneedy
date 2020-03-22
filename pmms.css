@@ -13,7 +13,7 @@ background: url(home2.jpg) no-repeat center center fixed;
 }
 
 body::after{
-	position:absolute;
+	position:absolute
 	z-index:99;
 	opacity:0.4;
 }
@@ -21,14 +21,14 @@ body::after{
 #b{
 	float:left;
 	height:5%;
-	width:5%
+	width:5%tex
 }
 #name
 { float:left;
 margin-top:15px;
 margin-left:20px;
 font-size:20px;
-font-family:"Comic Sans MS", cursive, sans-serif;
+font-family:"Arial", cursive, sans-serif;
   color: white;
 height:5%;
 width:20%	
@@ -43,7 +43,7 @@ nav
   float: right;
   font-size: 18px;
   color: white;
-  font-family:"Comic Sans MS", cursive, sans-serif;
+  font-family:"Arial", cursive, sans-serif;
   text-align: center;
  padding: 20px 20px 10px 10px;
   text-decoration: none;
@@ -61,7 +61,7 @@ nav
   color: white;
   padding: 20px 20px 10px 10px;
   background-color: inherit;
-  font-family:"Comic Sans MS", cursive, sans-serif;
+  font-family:"Arial", cursive, sans-serif;
   margin: 0;
 }
 
@@ -79,7 +79,7 @@ nav
 }
 
 .dropdown-content a {
-	  font-family:"Comic Sans MS", cursive, sans-serif;
+	  font-family:"Arial", cursive, sans-serif;
 	 font-size: 18px;  
   float: none;
   color:black;
@@ -109,7 +109,7 @@ input[type=submit]:hover
   position:relative;
 	margin:20px 150px 0px 150px;
 	height:700px;
-	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-family:"Arial", cursive, sans-serif;
 
 }
 #img1
@@ -159,7 +159,7 @@ height:400px;
 	margin:30px 0px 0px 275px;
 	 border: 1px solid #ccc;
   border-radius: 4px;
-	font-family:Comic Sans MS, cursive, sans-serif;
+	font-family:Arial, cursive, sans-serif;
 
 }
 #itypetext
@@ -276,7 +276,7 @@ padding:10px;}
 	border-top:1px solid gray;
 	border-bottom:1px solid gray;
 	margin-bottom:9%;
-font-family:"Comic Sans MS", cursive, sans-serif;
+font-family:"Arial", cursive, sans-serif;
 	
 }
 #info
@@ -292,7 +292,7 @@ height:250px;
 }
 #second
 {
- background-color: #f5f5f5;
+
 margin-top:50px;
 margin-left:100px;
 float:left;
@@ -339,7 +339,7 @@ img {vertical-align: middle;}
 #caption {
   color: #f2f2f2;
   padding: 4px 6px;
-   font-family:"Comic Sans MS", cursive, sans-serif;
+   font-family:"Arial", cursive, sans-serif;
   font-size:10px;
   position: absolute;
   bottom: 4px;
@@ -350,7 +350,7 @@ img {vertical-align: middle;}
 
 #numbertext {
   color: #f2f2f2;
-   font-family:"Comic Sans MS", cursive, sans-serif;
+   font-family:"Arial", cursive, sans-serif;
   font-size:10px;
   padding: 4px 6px;
   position: absolute;
@@ -377,7 +377,7 @@ height:5%;
   text-align: center;
   padding: 20px 20px 10px 10px;
   text-decoration: none;
-  font-family:Comic Sans MS, cursive, sans-serif;
+  font-family:Arial, cursive, sans-serif;
   background-color: #191970;
   border:0px solid #191970;
 
@@ -390,7 +390,7 @@ button:hover {
   display: none;
   position: fixed;
   z-index: 1; /* Sit on top */
-  padding-top: 0px;
+  padding-top:100px;
 padding-left:325px;  /* Location of the box */
   left: 0;
   top: 0;
@@ -442,12 +442,24 @@ padding-left:325px;  /* Location of the box */
 }
 #text{
 
+  width:350px;
+  height:25px;
   padding: 6px 10px;
   margin: 4px 0;
   border: 1px solid #ccc;
   border-radius: 2px;
    font-size:15px;
    background-color:white;
+}
+#text1{
+
+  width:350px;
+  height:25px;
+  padding: 6px 10px;
+  margin: 4px 0;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+   font-size:15px;
 }
 
 textarea{
@@ -468,7 +480,7 @@ background-color:#C0C0C0;
     margin:60px 0px 0px 250px;
 border: 1px solid #ccc;
     border-radius: 4px;
-font-family:Comic Sans MS, cursive, sans-serif;
+font-family:Arial, cursive, sans-serif;
 }
 #profile
 {
@@ -480,7 +492,7 @@ font-family:Comic Sans MS, cursive, sans-serif;
     margin:30px 0px 0px 325px;
 	border: 1px solid #ccc;
     border-radius: 4px;
-	font-family:Comic Sans MS, cursive, sans-serif;
+	font-family:Arial, cursive, sans-serif;
 }
 #button1{
  
@@ -495,7 +507,7 @@ font-family:Comic Sans MS, cursive, sans-serif;
 }
 #button1:hover 
 {
-	font-family:Comic Sans MS, cursive, sans-serif;
+	font-family:Arial, cursive, sans-serif;
 }
 #submit
 {
