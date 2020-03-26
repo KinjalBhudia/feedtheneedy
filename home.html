@@ -1,90 +1,91 @@
 <html>
 <head>
-<link href="pmms.css" rel="stylesheet">
+ <link href="pmms.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
- <nav>
- <ul>
-  <div id="b"><a href="#"><img src="logo.png" style="width:60px"></a></div>
-  <div id="name">Feed The Needy</div>
-			<li><button class="button" id="login">Login</button></li>
-			<li><button class="button" id="signup">Signup</button></li>
+<nav class="navbar navbar-light navbar-default">
+        <center><a href="#" >
+            <img src="Logo..png" height="150"  alt="CoolBrand">
+        </a></center>
+</nav>
 
- </ul>
- </nav>
+<div class="container" style="width:100%;margin-top:-20;padding:0"> 
+  <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="1000">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+	  <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
 
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active" style="opacity:0.7">
+		<img src="home1.png" style="width:100%;">
+		<div class="carousel-caption d-none d-md-block" style="vertical-align:middle">
+            <div class="col-md-12 text-center" style="margin-bottom:150">
+                <h1 style="color:white;text-shadow: 2px 2px 5px red">
+                   	“We're hungry for donations.”
+                </h1>
+                <br>
+                <div>
+                   <a class="btn btn-default btn-lg active" style="color:red;font-size:20px;width:200" href="login.html" role="button">Login</a>
+				</div>
+            </div>
+        </div>
+      </div>
 
- <div id="loginm" class="modal">
-
-  <!-- Modal content -->
-  <div class="modal-content">
-    <span class="close">&times;</span>
-<img src="logo.png" style="width:50px;margin-left:150px;">
-<p style="font-size:20px;margin-left:100px">Please Log in</p>
-<form class="form" method="post" action="login.php">
-<input id="text" name="email" type="text" placeholder="Email-Address">
-<input id="text"  name="password" type="password" placeholder="Password"><br>
-<input id="button1" type="submit" value="submit" name="submit" ><br>
-</form>
-
+      <div class="item" style="opacity:0.8">
+        <img src="home6.jpg" style="width:100%;">
+		<div class="carousel-caption d-none d-md-block" style="vertical-align:middle">
+            <div class="col-md-12 text-center" style="margin-bottom:500">
+                <h1 style="color:white;text-shadow: 2px 2px 5px red">
+                   	“Happy as can be”
+                </h1>
+			</div>
+		</div>
+      </div>
+	  
+	  <div class="item" style="opacity:0.7">
+        <img src="home4.jpg" style="width:100%;">
+		<div class="carousel-caption d-none d-md-block" style="vertical-align:middle">
+            <div class="col-md-12 text-center" style="margin-bottom:450">
+                <h1 style="color:white;text-shadow: 2px 2px 5px red">
+                   	“If you can’t feed a hundred people, then just feed one.”
+                </h1>
+			</div>
+		</div>
+      </div>
+	  
+      <div class="item" style="opacity:0.7">
+        <img src="home5.jpg" style="width:100%;">
+		<div class="carousel-caption d-none d-md-block" style="vertical-align:middle">
+            <div class="col-md-12 text-center" style="margin-bottom:450">
+                <h1 style="color:white;text-shadow: 2px 2px 5px red">
+                   	“Alone we can do so little; together we can do so much.” 
+                </h1>
+			</div>
+		</div>
+      </div>
+	  
+	  
+    </div>
+	<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+	
   </div>
-</div>
-
-
- <div id="signupm" class="modal">
-  <!-- Modal content -->
-  <div class="modal-content">
-    <span class="close1">&times;</span>
-<img src="logo.png" style="width:50px;margin-left:150px;">
-<p style="font-size:20px;margin-left:100px">Please sign up</p>
-<form name="myform" onsubmit="return validation()" method="post" action ="signup.php" class="form">
-<p>Email Address</p>
-<input id="text1" name="emailid" type="text"><br>
-<p>Password</p>
-<input id="text1" name="password" type="password"><br>
-<p>Confirm Password</p>
-<input id="text1" name="cpassword" type="password"><br>
-<input id="button1" type="submit" value="submit"name="submit" ><br>
-</form>
-
-  </div>
-</div>
-
-
-
   
-<div class="slideshow-container">
-
-<div class="mySlides fade">
-  <div id="numbertext">1 / 4</div>
-  <img src="home1.jpg" style="width:100%">
-  <div id="caption">We hungry for donations. <br><br><br> <button> signup</button>
-</div>
-    
 </div>
 
-<div class="mySlides fade">
-  <div id="numbertext">2 / 4</div>
-  <img src="home2.jpg" style="width:100%">
-  <div id="caption">Feed People, Not Landfills.</div>
-
-</div>
-
-<div class="mySlides fade">
-  <div id="numbertext">3 / 4</div>
-  <img src="home3.png" style="width:100%">
-  <div id="caption">Caption Three</div>
-
-</div>
-
-<div class="mySlides fade">
-  <div id="numbertext">4 / 4</div>
-  <img src="home4.jpg" style="width:100%">
-  <div id="caption">Caption Four</div>
-
-</div>
-
-</div>
 <br>
 
 <div id="info" >
@@ -108,8 +109,6 @@
 </div>
 
 <div id="f">
-
-
 <div id="finfo">
 <div id="ffirst">
 <a href="#" style="text-decoration:none;color:white;font-family:Comic Sans MS, cursive, sans-serif;">Contact Us</a>
@@ -200,6 +199,8 @@ btn1.onclick = function() {
 span1.onclick = function() {
   modal1.style.display = "none";
 }
+
+
 /*
 function validation()
 {
@@ -247,13 +248,8 @@ if(cpass.value!=pass.value)
 {
 alert("password must be same");
 }
-
 }
 */
-
-
-
-
 
 </script>
 

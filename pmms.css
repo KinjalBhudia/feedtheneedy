@@ -18,6 +18,10 @@ body::after{
 	opacity:0.4;
 }
 */
+.aherf{
+	padding:.25rem .5rem;font-size:.875rem;line-height:1.5;border-radius:.2rem
+}
+
 #b{
 	float:left;
 	height:5%;
@@ -177,15 +181,13 @@ height:400px;
 
 
 #f
-{margin-top:100px;
-margin-bottom:0px;
+{	margin-top:100px;
+	margin-bottom:0px;
 	border:1px solid black;
-margin-bottom:0px;
-height:200px;
-background-color:#008080;
-font-size:20px;
-
-
+	margin-bottom:0px;
+	height:230px;
+	background-color:#008080;
+	font-size:20px;
 }
 #finfo{
 height:150px;
@@ -523,10 +525,4 @@ height:30px;
 }
 #active{
 	background-color:#008080;
-}
-
-
-
-	
-
-
+}	
