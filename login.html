@@ -1,0 +1,84 @@
+<html>
+<head>
+ <link href="feedneed.css" rel="stylesheet">
+  <link href="pmms.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-light navbar-default">
+        <center><a href="#" >
+            <img src="Logo..png" height="150"  alt="CoolBrand">
+        </a></center>
+</nav>
+<div class="row">
+        <div class="card">
+            <div class="login-box">
+                <div class="login-snip"> <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Login</label> <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Sign Up</label>
+                    <div class="login-space">
+					  <form method="post" action="login.php">
+                        <div class="login">
+                            <div class="group"> <label for="user" class="label">E-mail Address</label> <input id="user" type="text" class="input" placeholder="Enter your username" name="email"> </div>
+                            <div class="group"> <label for="pass" class="label">Password</label> <input id="pass" type="password" class="input" data-type="password" placeholder="Enter your password" name="password"> </div>
+							<br>
+                            <div class="group"> <input type="submit" class="button" value="Sign In" name="submit"> </div>
+                            <div class="hr"></div>
+                            <div style="text-align:center;margin-top:70;"> <a href="#" class="foot">Forgot Password?</a> </div>
+                        </div>
+						</form>
+						<form method="post" action ="signup.php">
+                        <div class="sign-up-form">
+                            <div class="group"> <label for="user" class="label">E-mail Address</label> <input id="user" type="text" class="input" placeholder="Enter your email address" name="emailid"> </div>
+                            <div class="group"> <label for="pass" class="label">Password</label> <input id="pass" type="password" class="input" data-type="password" placeholder="Create your password" name="password"> </div>
+                            <div class="group"> <label for="pass" class="label">Repeat Password</label> <input id="pass" type="password" class="input" data-type="password" placeholder="Repeat your password" name="cpassword"> </div>
+                            <div class="group"> <input type="submit" class="button" value="Sign Up" name="submit"> </div>
+                            <div class="hr"></div>
+                            <div style="margin-top:50"> <label for="tab-1">Already Member?</label> </div>
+                        </div>
+						</form>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+
+<div id="f">
+<div id="finfo">
+<div id="ffirst">
+<a href="#" style="text-decoration:none;color:white;font-family:Comic Sans MS, cursive, sans-serif;">Contact Us</a>
+</div>
+<div id="fsecond">
+<a href="#"style="text-decoration:none;color:white;font-family:Comic Sans MS, cursive, sans-serif;">Terms & Conditions</a>
+</div>
+
+<div id="fthird"  >
+<a href="#"style="text-decoration:none;color:white;font-family:Comic Sans MS, cursive, sans-serif;">FAQs</a>
+</div>
+<div id="ffourth">
+<a href="#"style="text-decoration:none;color:white;font-family:Comic Sans MS, cursive, sans-serif;">How it Works</a>
+</div>
+<div id="ffifth">
+<a href="#"style="text-decoration:none;color:white;font-family:Comic Sans MS, cursive, sans-serif;">Find Us:&nbsp;&nbsp;&nbsp;</a>
+<a href="#"> <img src="facebook.png" style="width:25px;height:25px;"></a>&nbsp;
+<a href="#"> <img src="instagram.png" style="width:30px;height:25px;"></a>&nbsp;
+<a href="#"> <img src="twitter.png" style="width:30px;height:25px;"></a>&nbsp;
+</div>
+<div id="fselect">
+<form>
+  <select name="language" style="width:225px;height:35px;font-size:15px;font-family:Comic Sans MS, cursive, sans-serif;">
+    <option >English</option>
+    <option >Hindi</option>
+    <option >Gujarati</option>
+ 
+  </select>
+</form>
+</div>
+</div>
+<div id="line">
+<hr>
+<p align="center" style="font-size:13px;">&#169; Copyright All Rights Reserved</p>
+</div>
+</div>
+</body>
+</html>
